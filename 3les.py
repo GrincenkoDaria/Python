@@ -10,5 +10,4 @@ x=input("Cislo x je ")
 y=input("Cislo y je ")
 if x > y:
   print("Cislo x viac")
-else:
-  print("Cislo y  viac")  
+else: print("Cislo y viac")
