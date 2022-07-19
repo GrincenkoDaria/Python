@@ -1,13 +1,14 @@
-n=5
-string="Ahoj  "
-print(string * n)
+a, b = 4,6
+print(a,b)
+a, b = b, a 
+print(a,b)
 
-name=input("Ako sa valas? ")
-print(name,", Ako sa mas?")
-input()
+a,b,c= map(float,input().split())
 
-x=input("Cislo x je ")
-y=input("Cislo y je ")
-if x > y:
-  print("Cislo x viac")
-else: print("Cislo y viac")
+a=int(input())
+while 0>a or a>10 :
+  print('ERROR')
+  a=int(input())
+b = 9-a
+num = a*100 + 90 + b
+print(num)

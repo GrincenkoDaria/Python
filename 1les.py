@@ -1,3 +1,4 @@
+
 n=5
 string="Ahoj  "
 print(string * n)
@@ -12,3 +13,20 @@ if x > y:
   print("Cislo x viac")
 else:
   print("Cislo y  viac")  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
