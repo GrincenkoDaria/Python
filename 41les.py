@@ -1,11 +1,14 @@
+from functools import wraps
 def header(func):
   def inn(*args, **kwargs):
     print('<h1>')
     func(*args, **kwargs)
     print('</h1>')
+
   return inn
 
 def table(func):
+  @wraps(func)
   def inn(*args, **kwargs):
     print('<table>')
     func(*args, **kwargs)
@@ -19,3 +22,4 @@ def say(name,surname,age):
 
 print(say)
 say("Vasya","Ivanov", 30)
+
