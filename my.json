@@ -1,0 +1,19 @@
+{
+   "response": {
+      "count": 5961888,
+      "items": [
+         {
+            "first_name": "Misha",
+            "last_name": "Musaev",
+            "can_access_closed": true,
+            "likes": 1613
+         },
+         {
+            "first_name": "Diana",
+            "last_name": "Shavcenko",
+            "can_access_closed": true,
+            "likes": 1231
+         }
+      ]
+   }
+}
