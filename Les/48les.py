@@ -53,4 +53,65 @@ def l(list: List[str]):
     print(elem.upper())
     
     
-l(["isdid","odis"])
+l(["isdid","odis "])
+
+
+
+
+#file = open('passwords.txt', 'w')
+# file.write([1,2,3])
+#file.close
+
+
+#list = []
+# for i in range(10000):
+#   file = open('passwords.txt', 'w')
+#   list.append(file)
+#   file. close
+
+#with poen('passwords.txt', 'w')as f:
+#   f.write("1223")
+#   f.write("hello")
+#print(f.writ("22222"))
+
+#import os
+
+#with os.scandir('..') as entries:
+#   for i in entries:
+#   print(i.name, "->", entry.stat().st_size. "bytes")
+
+#with balance_lock:
+#   pass
+
+#import aiohttp
+#import asyncio
+
+#async def main():
+#  async with aiohttp.ClientSession() as session:
+#    async with session.get("http://python.org") as response:
+
+#      print("Status", response.status)
+#      print("Content-type", response.headers['content-type'])
+ 
+#      html = await response.text()
+#      print('Body', html[:15]. -...-)
+
+#loop = asyncio.get_event_loop()
+#loop.run_until_complete(main())
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
